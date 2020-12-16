@@ -529,7 +529,7 @@ public class MainFrame extends JFrame{
 		openDataLabel.setForeground(new Color(0, 0, 0));
 		openDataLabel.setBackground(Color.WHITE);
 		openDataLabel.setFont(new Font("Arial", Font.BOLD, 25));
-		openDataLabel.setBorder(new TitledBorder(new LineBorder(new Color(0, 0, 0), 2), "Today's confirmed number", TitledBorder.CENTER, TitledBorder.TOP, (new Font("Arial", Font.PLAIN, 20)), new Color(0, 0, 0)));
+		openDataLabel.setBorder(new TitledBorder(new LineBorder(new Color(0, 0, 0), 2), "Confirmed Case Number", TitledBorder.CENTER, TitledBorder.TOP, (new Font("Arial", Font.PLAIN, 20)), new Color(0, 0, 0)));
 		openDataLabel.setHorizontalAlignment(SwingConstants.CENTER);
 		openDataLabel.setBounds(25, 0, 350, 65);
 		openDataPanel.add(openDataLabel);
